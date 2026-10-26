@@ -1,0 +1,24 @@
+{
+	"name": "orluxa-smart-living",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host 0.0.0.0",
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@gsap/react": "^2.1.2",
+		"gsap": "^3.15.0",
+		"lenis": "latest",
+		"react": "latest",
+		"react-dom": "latest"
+	},
+	"devDependencies": {
+		"@jsrepo/transform-javascript": "^8.0.2",
+		"@vitejs/plugin-react": "latest",
+		"jsrepo": "^3.8.2",
+		"shadcn": "latest",
+		"vite": "latest"
+	}
+}
