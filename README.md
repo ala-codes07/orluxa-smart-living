@@ -1,6 +1,23 @@
-# ORLUXA — Smart Living Website
+# ORLUXA
 
-A modern, animated corporate website concept for a smart living company. The site is available in English and Arabic and is built with React, Vite, JavaScript, and CSS. The contact form is for demonstration only; it does not open an email app, send messages, or store submitted data.
+### Intelligence in harmony with space.
+
+ORLUXA is a concept website for a next-generation smart living brand—designed to make technology feel considered, intuitive, and beautifully integrated into everyday life.
+
+The experience pairs refined architectural imagery with confident editorial typography, considered motion, and a warm, premium visual language. Built as a responsive, multi-page portfolio project, it introduces the brand, its intelligent living solutions, selected projects, and a contact experience in both English and Arabic.
+
+## The experience
+
+- **A bilingual interface** with dedicated English and Arabic layouts, including right-to-left support.
+- **A considered visual system** shaped around architectural imagery, deep tones, warm neutrals, and restrained highlights.
+- **Motion with purpose** through smooth scrolling, layered transitions, and scroll-led reveals.
+- **Responsive by design** for desktop, tablet, and mobile screens.
+- **A complete multi-page journey** across the homepage, solutions, projects, about, and contact pages.
+- **A portfolio-only contact form** that demonstrates the interaction without sending or storing information.
+
+## Built with
+
+React · Vite · JavaScript · CSS · GSAP · Lenis
 
 ## Run locally
 
@@ -9,20 +26,20 @@ pnpm install
 pnpm dev
 ```
 
-To create a production build:
+Create a production build with:
 
 ```bash
 pnpm build
 ```
 
-## Deploy to GitHub Pages
+## Publish with GitHub Pages
 
-1. Create a GitHub repository named `orluxa-smart-living`. If you use GitHub Free, make the repository public to use GitHub Pages.
-2. In the repository, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**.
-3. Push the project to the `main` branch. The workflow in `.github/workflows/deploy.yml` will build and deploy the site automatically.
-4. Check the **Actions** tab for the deployment status. Once it succeeds, GitHub Pages will show the site URL under **Settings → Pages**.
+This repository includes a GitHub Actions workflow for deployment.
+
+1. In **Settings → Pages**, set the publishing source to **GitHub Actions**.
+2. Push changes to the `main` branch, or run the workflow manually from the **Actions** tab.
+3. When the workflow succeeds, GitHub Pages displays the published URL in **Settings → Pages**.
 
 The expected URL is `https://ala-codes07.github.io/orluxa-smart-living/`.
 
-Do not commit `node_modules` or `dist`; GitHub Actions creates them during deployment.
-
+GitHub Actions installs dependencies and creates the production files. Keep `node_modules` and `dist` out of commits.
