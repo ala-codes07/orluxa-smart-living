@@ -61,7 +61,7 @@ function Footer() {
       <div className="footer-contact-col"><h2>لنبقى على تواصل</h2><span>نموذج تواصل توضيحي · لا يستقبل رسائل فعلية</span><span>الرياض · المملكة العربية السعودية</span><div className="social-tags"><span>Instagram · @orluxa.living</span><span>LinkedIn · ORLUXA</span></div></div>
       <div className="footer-signoff"><span className="footer-orbit">O</span><p>نورٌ ينسجم.<br /><em>ومساحةٌ تتنفّس.</em></p><a href="contact.html">لنتحدث عن فكرتك <Arrow /></a></div>
     </div>
-    <div className="footer-bottom shell"><span>© 2026 ORLUXA · موقع مفاهيمي لأغراض العرض</span><a href="index.html">العودة إلى البداية <span>↑</span></a><span>ساخته شده توسط آلا</span></div>
+    <div className="footer-bottom shell"><span>© 2026 ORLUXA · موقع مفاهيمي لأغراض العرض</span><a href="index.html">العودة إلى البداية <span>↑</span></a><span>  Made by ala.codes07  </span></div>
   </footer>;
 }
 
